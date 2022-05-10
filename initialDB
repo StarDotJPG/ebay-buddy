@@ -29,19 +29,9 @@
                 'weight': 1.2
             },
             {
-                'name': 'Polaroid Originals Instant Color Film for I-Type - Double Pack, 16 Photos',
-                'size': '7x5x4',
-                'weight': 0.5
-            },
-            {
                 'name': 'Margaret Le Van Alley Cat Figurine KATTY DIVA Purple Gown Retired',
                 'size': '9x7x5',
                 'weight': 1.2
-            },
-            {
-                'name': 'Vintage Otagiri Japan Wind Up Dancing Penguin Music Shadowbox Zip-A-Dee-Doo-Dah',
-                'size': '7x5x4',
-                'weight': 0.5
             },
             {
                 'name': 'BREYER HORSES 2021 World Of Breyer Paddock Pals COCO New in Box',
@@ -92,11 +82,6 @@
                 'name': 'Nightmare Before Christmas Mini Succulents Set of 4 JACK SALLY MAYOR OOGIE New',
                 'size': '8x7x6',
                 'weight': 1.5
-            },
-            {
-                'name': 'Suzuki SCX-64 Chromatix Series Harmonica Key of C 64 Reeds 16 Holes F/S SEALED',
-                'size': '10x5x3',
-                'weight': 1.1
             },
             {
                 'name': 'Philips Norelco MG7750/49 Series 7000 All-in-one 23 Pieces Multigroom Trimmer',
@@ -178,6 +163,21 @@
             },
             {
                 'name': 'Sealed "Bai: The New Language Of Porcelain In China" By Bai Ming ACC Art Books',
+            },
+            {
+                'name': 'Funko POP! #1237 PEACEMAKER W/ Shield 2022 Wondrous Convention Limited Edition',
+                'size': '8x5x5',
+                'weight': 0.5
+            },
+            {
+                'name': 'Funko POP! Disney Pixar WALL-E 2022 Wondrous Convention Limited Edition',
+                'size': '7x6x4',
+                'weight': 0.6
+            },
+            {
+                'name': 'Squishmallows Kellytoy Disney WOODY and BUZZ LIGHTYEAR 5" Plush Stuffed NWT',
+                'size': '6x7x5',
+                'weight': 0.5
             }
         ]
     },
@@ -264,11 +264,6 @@
                 'name': 'THE YALE & TOWNE MFG CO Padlock Lock Antique With Key USA',
                 'size': '4x4x4',
                 'weight': 0.8
-            },
-            {
-                'name': 'Nintendo 2DS XL Mario Kart 7 Console Bundle 4GB SD Card - Purple/Silver',
-                'size': '7x6x5',
-                'weight': 1.1
             },
             {
                 'name': 'Funko Shop Exclusive Cereal CAPTAIN CAVEMAN Pocket Pop New in Sealed Box',
@@ -364,20 +359,326 @@
                 'weight': 3.1
             },
             {
-                'name': 'Sensational Gel Color Lot of 17, Steamoff Gel Removal System and LED/UV Lamp',
-                'size': '16x10x9',
-                'weight': 5.6
-            },
-            {
                 'name': 'ROBLOX Classics Series 6 Action Figures 23pcs 12 Virtual Codes Target Exclusive',
                 'size': '15x13x6',
                 'weight': 0.4
             },
             {
-                'name': '',
-                'size': '15x11x6',
-                'weight': 1.9
+                'name': 'Margaret Le Van Alley Cat GoGo Secret Agent Collectible Feline Figure Retired',
+                'size': '11x8x5',
+                'weight': 1.7
+            },
+            {
+                'name': 'Walgreens Nightmare Before Christmas Posable Doll Plush SALLY OOGIE PUMPKIN KING',
+                'size': '14x11x7',
+                'weight': 2.0
+            },
+            {
+                'name': 'Vintage Thanksgiving Duck Set of 3 Carved Wood TII Collection Figurines',
+                'size': '13x10x4',
+                'weight': 2.2
+            },
+            {
+                'name': 'Gemmy 4FT Wide Airblown Inflatable Disney Blinking Hanging MICKEY MOUSE SPIDER',
+                'size': '10x8x6',
+                'weight': 1.6
+            },
+            {
+                'name': 'Funko Pop! Enamel Pin Set of 5 HARRY POTTER HERMIONE RON DUMBLEDORE HEDWIG',
+                'size': '11x8x7',
+                'weight': 1.6
+            },
+            {
+                'name': 'Gemmy Airblown Inflatable 101 Dalmatians 5ft CRUELLA DE VIL LED New',
+                'size': '14x10x7',
+                'weight': 4.4
+            },
+            {
+                'name': 'Disney Airblown Gemmy Inflatable Nightmare Before Christmas 4.5ft ZERO LED NIB',
+                'size': '12x10x7',
+                'weight': 4.0
+            },
+            {
+                'name': 'FRIDAY 13TH JASON VOORHEES LED ROTATING SHADOW PROJECTION LIGHT TABLETOP GEMMY',
+                'size': '12x9x9',
+                'weight': 1.5
+            },
+            {
+                'name': 'Airblown Inflatable Nightmare Before Christmas 3.5ft JACK SKELLINGTON and SALLY',
+                'size': '12x10x9',
+                'weight': 7.0
+            },
+            {
+                'name': 'Gemmy Airblown Inflatable Nightmare Before Christmas 3.5ft Sally W/ Pumpkin LED',
+                'size': '10x9x9',
+                'weight': 3.8
+            },
+            {
+                'name': 'Disney Nightmare Before Christmas THE MASTER OF FRIGHT Jack Picture 3D 10x8"',
+                'size': '13x10x6',
+                'weight': 1.5
+            },
+            {
+                'name': 'Airblown Gemmy Inflatable Nightmare Before Christmas 3.5ft JACK SKELLINGTON NIB',
+                'size': '11x10x7',
+                'weight': 3.7
+                'description': 'welcome to halloween town'
+            },
+            {
+                'name': 'Nickelodeon PAW Patrol CHASE 4.5 Ft. Gemmy Airblown Lighted Inflatable Walmart',
+                'size': '11x7x9',
+                'weight': 3.8
+            },
+            {
+                'name': 'Funko Nightmare Before Christmas JACK SKELLINGTON 18" Backpack New with Tags'
+            },
+            {
+                'name': 'Nightmare Before Christmas JACK SKELLINGTON One-Piece Hood PJs Pajamas XL 16/18'
+            },
+            {
+                'name': 'DKNY Rainbow Pride Drawstring Backpack Bag Embossed New With Tags'
+            },
+            {
+                'name': 'Liberation Theology and Sexuality by Marcella Althaus-Reid (Hardcover) Routledge'
             }
+        ]
+    },
+    {
+        'section': 'B2',
+        'documents': [
+            {
+                'name': 'RARE! Disneyana Nightmare Before Christmas Cookie Jar 12" Limited Edition of 350',
+                'size': '16x14x14',
+                'weight': 10.6
+            },
+            {
+                'name': 'Nightmare Before Christmas JACK SKELLINGTON AND ZERO Ghost Pillow Pets Plush NWT',
+                'size': '17x12x13',
+                'weight': 3.4
+            },
+            {
+                'name': 'Funko POP! Rocks BTS DYNAMITE 7 Pack Walmart Exclusive New',
+                'size': '30x7x7',
+                'weight': 2.9
+            },
+            {
+                'name': 'Funko POP! Alice in Wonderland CHESHIRE CAT 10" #1066 Walmart Exclusive',
+                'size': '16x11x9',
+                'weight': 2.6
+            },
+            {
+                'name': "Disney THE NIGHTMARE BEFORE CHRISTMAS Gemmy Airblown Inflatable 5' PUMPKIN KING",
+                'size': '14x10x7',
+                'weight': 4.0
+            },
+            {
+                'name': 'Kellytoy Squishmallow 8” Disney Pride Collection. Mickey, Minnie, Stitch & Bing',
+                'size': '18x8x7',
+                'weight': 2.4
+            },
+            {
+                'name': 'Jazwares FORTNITE POLAR LEGENDS 13 Pcs Target Exclusive 4” Figures Battle Royale',
+                'size': '11x10x7',
+                'weight': 1.1
+            },
+            {
+                'name': 'Vintage Singer Sewing Machine Mini Sewing Box Wood Replica w/ Thread & Needles',
+                'size': '9x7x8',
+                'weight': 2.9
+            },
+            {
+                'name': 'Funko POP! Game of Thrones THE CREATORS New York Comic Con Official Sticker 2018',
+                'size': '11x8x6',
+                'weight': 1.0
+            },
+            {
+                'name': 'Ravensburger Disney JUNGLE CRUISE ADVENTURE Game Amazon Exclusive New SEALED',
+                'size': '13x11x4',
+                'weight': 3.0
+            },
+            {
+                'name': 'Funko Pop! Loungefly Disney MICKEY MOUSE Pin Trader Cosplay Mini Backpack NWT',
+                'size': '13x9x9',
+                'weight': 2.3
+            },
+            {
+                'name': 'Nightmare Before Christmas SALLY WITH PRESENT 5 Ft. Airblown Lighted Inflatable',
+                'size': '11x9x7',
+                'weight': 3.8
+            },
+            {
+                'name': 'Airblown Inflatable Nightmare Before Christmas 3.5ft JACK SKELLINGTON LED New',
+                'size': '10x9x7',
+                'weight': 3.6,
+                'description': 'sitting on pumpkin'
+            },
+            {
+                'name': 'Nightmare Before Christmas SANTA JACK SKELLINGTON 5 Ft. Lighted Inflatable',
+                'size': '11x10x7',
+                'weight': 3.7
+            },
+            {
+                'name': 'Vintage Camel Cigarette Wooden Jewelry Type Box Thomas Museum Series With COA',
+                'size': '14x9x7',
+                'weight': 5.8
+            },
+            {
+                'name': 'Funko Pop! Disney Archives MINNIE MOUSE 5 Pack Amazon Exclusive New Sealed Box',
+                'size': '18x7x4',
+                'weight': 1.8
+            },
+            {
+                'name': 'Kolkata Calcutta : Some Kind of Beauty by Fionn Reilly (2017, Hardcover) Sealed'
+            }
+        ]
+    },
+    {
+        'section': 'C2',
+        'documents': [
+            {
+                'name': 'Walgreens Exclusive NIGHTMARE BEFORE CHRISTMAS Animated Plush Doll Set of 4 NWT',
+                'size': '24x17x9',
+                'weight': 5.8
+            },
+            {
+                'name': 'Dr. Seuss THE GRINCH 5.5 Ft. Gemmy Airblown LED Lighted Inflatable Walmart',
+                'size': '10x8x9',
+                'weight': 4.1,
+                'description': 'wreath'
+            },
+            {
+                'name': 'HOCUS POCUS LED ROTATING SHADOW PROJECTION LIGHT HALLOWEEN TABLETOP GEMMY NEW',
+                'size': '10x9x9',
+                'weight': 1.5
+            },
+            {
+                'name': 'Spectra S2 Plus Double Electric Breast Pump - Pink Ultra Quiet New in Open Box',
+                'size': '13x9x11',
+                'weight': 5.0
+            },
+            {
+                'name': 'SCOOBY-DOO Christmas Stocking 4.5 Ft. Gemmy Airblown Lighted Inflatable Walmart',
+                'size': '11x10x7',
+                'weight': 4.2
+            },
+            {
+                'name': 'Funko Pop! Marvel Art Series Captain America Set #32, 33, 34, 35, 36 Sz L Target',
+                'size': '12x12x9',
+                'weight': 4.8
+            },
+            {
+                'name': 'LOUNGEFLY DUMBO 80TH ANNIVERSARY COSPLAY MINI BACKPACK NWT FREE SHIPPING',
+                'size': '11x10x9',
+                'weight': 2.6
+            },
+            {
+                'name': 'Disney 14" MICKEY MOUSE Squishmallows Plush Stuffed Kelly Toys New with Tags',
+                'size': '15x11x12',
+                'weight': 2.6
+            },
+            {
+                'name': 'CHI-Volumizer 4-in-1 Blowout Brush Nozzle Paddle Brush Diffuser and Round Brush',
+                'size': '15x10x5',
+                'weight': 2.5
+            },
+            {
+                'name': 'Funko Pop! Disney 10" MICKEY MOUSE #457 Black and White Target Exclusive 90 Year',
+                'size': '15x11x12',
+                'weight': 3.0
+            },
+            {
+                'name': 'Principles of Radiographic Imaging : An Art and a Science 6th Edition New',
+                'size': '13x10x3',
+                'weight': 4.5
+            },
+            {
+                'name': 'WOLVERINE F2D Saturn Digital Film & Slide Scanner Converts Film Negatives Slides',
+                'size': '13x10x6',
+                'weight': 2.8
+            },
+            {
+                'name': 'SLIMER Ghost Busters Airblown Gemmy Self Inflatable 5ft LED Lighted NIB',
+                'size': '14x10x6',
+                'weight': 4.1
+            },
+            {
+                'name': 'Disney Airblown Gemmy Inflatable Nightmare Before Christmas 5.5ft SHOCK LED NIB',
+                'size': '14x10x6',
+                'weight': 4.2
+            },
+            {
+                'name': 'Nightmare Before Christmas Jack Skellington & Sally NOW & FOREVER Backpack NWT'
+            }
+        ]
+    },
+    {
+        'section': 'D2',
+        'documents': [
+            {
+                'name': 'Wow Wee Buttheads Fart Launcher 3000 IN HAND Sent Out Same Day Shipping NIB',
+                'size': '18x10x10',
+                'weight': 4.0
+            },
+            {
+                'name': 'Squishmallows Kellytoys Disney STAR WARS 5" R2-D2 The Child and BB-8 Set NWT',
+                'size': '9x7x6',
+                'weight': 0.6
+            },
+            {
+                'name': 'Squishmallows Kellytoy Disney 5" MIKE & SULLEY Plush Stuffed Monsters Inc. NWT',
+                'size': '7x5x6',
+                'weight': 0.4 
+            },
+            {
+                'name': 'Squishmallows Kellytoy Disney 10" MIKE & SULLEY Plush Stuffed Monsters Inc. NWT',
+                'size': '14x11x7',
+                'weight': 1.8
+            },
+            {
+                'name': 'HARRY POTTER: A Pop-Up Guide to Hogwarts Matthew Reinhart Hardcover NEW Sealed',
+                'size': '13x11x7',
+                'weight': 3.3
+            },
+            {
+                //'name': 'N S GUSTIN Mouse Eating Cookie Jar VINTAGE 1970's 11" Tall EUC',
+                'size': '9x9x14',
+                'weight': 5.3
+            },
+            {
+                'name': 'Squishmallows Kellytoy Disney GOOFY AND PLUTO 10" Plush Stuffed Animal NWT',
+                'size': '13x9x7',
+                'weight': 1.8
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
         ]
     }
 ]
