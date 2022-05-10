@@ -1,0 +1,383 @@
+[
+    {
+        'model': 'Item',
+        'section': 'A1',
+        'documents': [
+            {
+                'name': 'UGG Fluff Yeah Slide Baby Slippers Size S 02/03 6-12 Months Lamb Fur New in Box',
+                'size': '8x7x7',
+                'weight': 0.7
+            },
+            {
+                'name': 'Hallmark Christmas Ornaments Disney MICKEY & MINNIE Sparkle Ball Ears 2021 New',
+                'size': '6x6x4',
+                'weight': 0.8
+            },
+            {
+                'name': 'Yeti Abominable Snowman Animated Monster Dances and Sings WHITE CHRISTMAS New',
+                'size': '9x6x6',
+                'weight': 1.0
+            },
+            {
+                'name': 'Hallmark Christmas Ornaments HARRY POTTER HOGWARTS EXPRESS BOOKS & WAND 2021 New',
+                'size': '9x6x5',
+                'weight': 0.9
+            },
+            {
+                'name': 'Nightmare Before Christmas OOGIE BOOGIE Silhouetted Glass Votive Holder Candle',
+                'size': '8x7x7',
+                'weight': 1.2
+            },
+            {
+                'name': 'Polaroid Originals Instant Color Film for I-Type - Double Pack, 16 Photos',
+                'size': '7x5x4',
+                'weight': 0.5
+            },
+            {
+                'name': 'Margaret Le Van Alley Cat Figurine KATTY DIVA Purple Gown Retired',
+                'size': '9x7x5',
+                'weight': 1.2
+            },
+            {
+                'name': 'Vintage Otagiri Japan Wind Up Dancing Penguin Music Shadowbox Zip-A-Dee-Doo-Dah',
+                'size': '7x5x4',
+                'weight': 0.5
+            },
+            {
+                'name': 'BREYER HORSES 2021 World Of Breyer Paddock Pals COCO New in Box',
+                'size': '9x7x6',
+                'weight': 0.6
+            },
+            {
+                'name': 'BREYER HORSES 2021 World Of Breyer Paddock Pals SMOKEY New in Box',
+                'size': '10x7x5',
+                'weight': 0.7
+            },
+            {
+                'name': 'BREYER HORSES 2021 World Of Breyer Paddock Pals SMOKEY New in Box',
+                'size': '10x7x6',
+                'weight': 0.7
+            },
+            {
+                'name': 'Nightmare Before Christmas Mini Succulents Set of 5 JACK SALLY ZERO MAYOR OOGIE',
+                'size': '10x9x7',
+                'weight': 2.0
+            },
+            {
+                'name': 'Nightmare Before Christmas ZERO Ceramic 3D Mug Walgreens Exclusive 2021 NWT',
+                'size': '8x7x7',
+                'weight': 1.2
+            },
+            {
+                'name': 'The Wiggles VHS Lot 4 HOOP DEE DOO MAGICAL ADVENTURE WAKE UP JEFF TOOT TOOT EUC',
+                'size': '10x7x6',
+                'weight': 2.4
+            },
+            {
+                'name': 'Nightmare Before Christmas Animated JACK SKELLINGTON in CHIMNEY Plush Walgreens',
+                'size': '10x8x9',
+                'weight':1.3
+            },
+            {
+                'name': 'BEETLEJUICE LED ROTATING SHADOW PROJECTION LIGHT HALLOWEEN TABLETOP GEMMY NEW',
+                'size': '10x9x9',
+                'weight': 1.5
+            },
+            {
+                'name': 'Commonwealth HUG-A-PLUSH 8" CHRISTMAS PENGUIN with Tags and Case Vintage',
+                'size': '8x7x6',
+                'weight': 0.6
+            },
+            {
+                'name': 'Nightmare Before Christmas Mini Succulents Set of 4 JACK SALLY MAYOR OOGIE New',
+                'size': '8x7x6',
+                'weight': 1.5
+            },
+            {
+                'name': 'Suzuki SCX-64 Chromatix Series Harmonica Key of C 64 Reeds 16 Holes F/S SEALED',
+                'size': '10x5x3',
+                'weight': 1.1
+            },
+            {
+                'name': 'Philips Norelco MG7750/49 Series 7000 All-in-one 23 Pieces Multigroom Trimmer',
+                'size': '13x7x5',
+                'weight': 1.6
+            },
+            {
+                'name': 'O.P.I. OPI Infinite Shine System BARE FOR YOU Collection Gift Set of 4 NIB',
+                'size': '9x6x6',
+                'weight': 1.4
+            },
+            {
+                'name': 'Squishmallows Kellytoy Disney WINNIE THE POOH and PIGLET 5" Stuffed Plush NWT',
+                'size': '7x6x4',
+                'weight': 0.5
+            },
+            {
+                'name': 'Loungefly Nightmare Before Christmas Jack Skellington PUMPKIN KING Mini Backpack',
+                'size': '14x9x6',
+                'weight': 1.3
+            },
+            {
+                'name': 'Margaret Le Van Priss Alley Cats LITTLE PRIS MUFFET Retired',
+                'size': '8x7x5',
+                'weight': 0.7
+            },
+            {
+                'name': 'Nightmare Before Christmas JACK SKELLINGTON Ceramic 3D Mug Walgreens 2021 New',
+                'size': '10x7x6',
+                'weight': 1.2
+            },
+            {
+                'name': 'Funko POP! ROCKS Guns N Roses DUFF McKAGAN #52 Sealed in Plastic Case',
+                'size': '8x6x6',
+                'weight': 0.6
+            },
+            {
+                'name': 'Funko POP! Disney Art Series Amazon Exclusive MICKEY MOUSE #24 MINNIE MOUSE #23',
+                'size': '8x8x6',
+                'weight': 1.9
+            },
+            {
+                'name': 'Hallmark The MANDALORIAN w/ THE CHILD Walgreens Star Wars Christmas Ornament',
+                'size': '6x6x4',
+                'weight': 0.5
+            },
+            {
+                'name': 'Funko POP! Marvel Avengers Endgame IRON MAN #580 PX Exclusive GITD',
+                'size': '7x5x4',
+                'weight': 0.5
+            },
+            {
+                'name': 'DORBZ Funko Shop Ltd 3000 Pcs DUCK DODGERS SPACE CADET MARVIN THE MARTIAN',
+                'size': '11x6x5',
+                'weight': 1.0
+            },
+            {
+                'name': 'Wacom Intuos CTL-4100 Small Drawing Tablet - Black For Mac PC Chromebook Android',
+                'size': '11x8x5',
+                'weight': 1.6
+            },
+            {
+                'name': 'Nightmare Before Christmas Hallmark Ornaments JACK SALLY OOGIE LOCK SHOCK BARREL',
+                'size': '10x8x6',
+                'weight': 1.5
+            },
+            {
+                'name': 'NIB Transition Networks J/RS232-TF-01 Just-Convert-It SA Media Converter',
+                'size': '7x6x4',
+                'weight': 1.1
+            },
+            {
+                'name': 'Nightmare Before Christmas JACK SKELLINGTON Snow Water Globe Musical Walgreens',
+                'size': '9x7x7',
+                'weight': 2.7
+            },
+            {
+                'name': '"From Fibre to Fabric: The Ultimate Guide to Soft Furnishings" Hardcover Sealed',
+            },
+            {
+                'name': 'Sealed "Bai: The New Language Of Porcelain In China" By Bai Ming ACC Art Books',
+            }
+        ]
+    },
+    {
+        'model': 'Item',
+        'section': 'B1',
+        'documents': [
+            {
+                'name': 'Dept 56 Nightmare Before Christmas Jack, Sally and Zero by Possible Dreams NIB',
+                'size': '17x14x12',
+                'weight': 5.4
+            },
+            {
+                'name': 'Nickelodeon Paw Patrol The Movie LIBERTY JOINS THE TEAM Target Exclusive New',
+                'size': '16x13x3',
+                'weight': 1.5
+            },
+            {
+                'name': 'Nightmare Before Christmas 9" Plush Doll JACK SALLY MAYOR ZERO OOGIE DR. FINKLE',
+                'size': '11x9x9',
+                'weight': 1.6
+            },
+            {
+                'name': 'Walgreens Exclusive NIGHTMARE BEFORE CHRISTMAS Animated Plush Doll OOGIE BOOGIE',
+                'size': '11x8x6',
+                'weight': 1.1
+            },
+            {
+                'name': 'Disney NIGHTMARE BEFORE CHRISTMAS Characters String Lights Walgreens Exclusive',
+                'size': '14x10x6',
+                'weight': 1.3
+            },
+            {
+                'name': 'Walgreens Exclusive NIGHTMARE BEFORE CHRISTMAS Animated Plush Doll BARREL NWT',
+                'size': '15x10x6',
+                'weight': 1.6
+            },
+            {
+                'name': 'Roblox SERIES 4 Celebrity Collection 24 Pieces Target Exclusive NIB',
+                'size': '16x14x6',
+                'weight': 2.0
+            },
+            {
+                'name': 'Walgreens Exclusive NIGHTMARE BEFORE CHRISTMAS Animated Plush Doll SALLY NWT',
+                'size': '14x11x7',
+                'weight': 1.6
+            },
+            {
+                'name': 'Funko Shop Exclusive Kellogs Frosted Flakes TONY THE TIGER 10" #70 Factory Box',
+                'size': '16x11x12',
+                'weight': 3.6
+            },
+            {
+                'name': 'Walgreens Exclusive Nightmare Before Christmas ZERO CANDELABRA Candle Holder New',
+                'size': '12x11x7',
+                'weight': 2.7
+            },
+            {
+                'name': 'Vintage Bombay Company Chinoiserie Asian Pagoda Style Lidded',
+                'size': '15x11x12',
+                'weight': 8.5
+            },
+            {
+                'name': '2021 Nightmare Before Christmas Exclusive Resin Presents JACK, SALLY & ZERO New',
+                'size': '10x10x10',
+                'weight': 5.5
+            },
+            {
+                'name': 'Loungefly Disney MICKEY MOUSE Sketch Lunch Bag Lunchbox Tote Hot Topic NWT',
+                'size': '13x9x6',
+                'weight': 1.3
+            },
+            {
+                'name': 'Nightmare Before Christmas OOGIE BOOGIE Cookie Kitchen Storage Jar New SEALED',
+                'size': '11x9x7',
+                'weight': 2.3
+            },
+            {
+                'name': 'Ceramic Siamese Cat and Kitten Pitcher Green/Brown 7"',
+                'size': '8x7x6',
+                'weight': 1.8
+            },
+            {
+                'name': 'THE YALE & TOWNE MFG CO Padlock Lock Antique With Key USA',
+                'size': '4x4x4',
+                'weight': 0.8
+            },
+            {
+                'name': 'Nintendo 2DS XL Mario Kart 7 Console Bundle 4GB SD Card - Purple/Silver',
+                'size': '7x6x5',
+                'weight': 1.1
+            },
+            {
+                'name': 'Funko Shop Exclusive Cereal CAPTAIN CAVEMAN Pocket Pop New in Sealed Box',
+                'size': '11x8x3',
+                'weight': 1.0
+            }
+        ]
+    },
+    {
+        'model': 'Item',
+        'section': 'C1',
+        'documents': [
+            {
+                'name': 'SQUISHMALLOW Nightmare Before Christmas Large 12-14" Set of 8 New with Tags',
+                'size': '25x18x14',
+                'weight': 7.3
+            },
+            {
+                'name': 'Nightmare Before Christmas Walmart Lot JACK STOCKING DECORATED TREE JACK MUG',
+                'size': '14x11x5',
+                'weight': 3.1
+            },
+            {
+                'name': 'Dr. Seuss THE GRINCH CAR BUDDY Airblown Inflatable 3.5ft Gemmy Walmart Exclusive',
+                'size': '11x7x5',
+                'weight': 2.2
+            },
+            {
+                'name': 'Nightmare Before Christmas Squishmallows 14" JACK SKELLINGTON SALLY ZERO OOGIE',
+                'size': '19x14x9',
+                'weight': 4.9
+            },
+            {
+                'name': 'Gemmy Airblown Inflatable 101 Dalmatians 5ft MALEFICENT Lights Up LED New',
+                'size': '15x13x8',
+                'weight': 4.3
+            },
+            {
+                'name': 'Dr. Seuss THE GRINCH Lot DECORATED TREE JACK IN THE BOX 6pc COLLECTIBLE FIGURES',
+                'size': '19x14x7',
+                'weight': 3.8
+            },
+            {
+                'name': 'MICHAEL MYERS PENNYWISE CHUCKY GRADY TWINS Speaking Waddler Halloween Plush NWT',
+                'size': '15x13x8',
+                'weight': 3.8
+            },
+            {
+                'name': 'The Shining THE GRADY TWINS Animated Plush Spooky Creepy Phrases New with Tags',
+                'size': '15x11x6',
+                'weight': 1.9
+            }
+        ]
+    },
+    {
+        'model': 'Item',
+        'section': 'D1',
+        'documents': [
+            {
+                'name': 'Squishmallows Flip A Mallows Devil DANTE / TALLY Cat 12" Stuffed Plush NWT',
+                'size': '15x12x10',
+                'weight': 3.3
+            },
+            {
+                'name': 'Disney Traditions Jim Shore OLD ST. MICK 17" Christmas Mickey Mouse Costco NIB',
+                'size': '20x14x12',
+                'weight': 9.8
+            },
+            {
+                'name': 'Disney Hocus Pocus WINIFRED SANDERSON w/ Book Door Greeter Plush Walmart NWT',
+                'size': '24x17x9',
+                'weight': 3.8
+            },
+            {
+                'name': "Star Wars GALACTIC SNAKIN' GROGU The Child 9.25-Inch-Tall Animatronic Toy New",
+                'size': '14x13x6',
+                'weight': 2.7
+            },
+            {
+                'name': 'Funko Pocket POP! BEWARE 13 DAY SPOOKY COUNTDOWN New SEALED Calendar',
+                'size': '15x11x5',
+                'weight': 1.8
+            }
+        ]
+    },
+    {
+        'model': 'Item',
+        'section': 'A2',
+        'documents': [
+            {
+                'name': 'Loungefly WINNIE THE POOH Bee Bundle w/ Funko Box Lunch #1034 and Enamel Pin NEW',
+                'size': '16x11x9',
+                'weight': 3.1
+            },
+            {
+                'name': 'Sensational Gel Color Lot of 17, Steamoff Gel Removal System and LED/UV Lamp',
+                'size': '16x10x9',
+                'weight': 5.6
+            },
+            {
+                'name': 'ROBLOX Classics Series 6 Action Figures 23pcs 12 Virtual Codes Target Exclusive',
+                'size': '15x13x6',
+                'weight': 0.4
+            },
+            {
+                'name': '',
+                'size': '15x11x6',
+                'weight': 1.9
+            }
+        ]
+    }
+]
