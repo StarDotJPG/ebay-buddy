@@ -251,11 +251,6 @@
                 'weight': 1.3
             },
             {
-                'name': 'Nightmare Before Christmas OOGIE BOOGIE Cookie Kitchen Storage Jar New SEALED',
-                'size': '11x9x7',
-                'weight': 2.3
-            },
-            {
                 'name': 'Ceramic Siamese Cat and Kitten Pitcher Green/Brown 7"',
                 'size': '8x7x6',
                 'weight': 1.8
@@ -648,6 +643,351 @@
                 'name': 'Squishmallows Kellytoy Disney GOOFY AND PLUTO 10" Plush Stuffed Animal NWT',
                 'size': '13x9x7',
                 'weight': 1.8
+            },
+            {
+                'name': 'Franklin Uniform Set 5pc NCAA Collegiate Football Mississippi State Bulldogs YM',
+                'size': '12x10x12',
+                'weight': 3.2
+            },
+            {
+                'name': 'Hotel Style FULL 1200 Thread Count Limited Ed 6 Piece Sheet Set Gray Pumice New',
+                'size': '11x7x9',
+                'weight': 5.1
+            },
+            {
+                'name': 'Vintage Handpainted Delft Blue Duck Figurine 9" x 11"',
+                'size': '11x9x6',
+                'weight': 2.3
+            },
+            {
+                'name': 'Black Ceramic Cat Fish Bowl Holder Vandor Pelzman Made In Japan With Sticker',
+                'size': '9x9x5',
+                'weight': 1.3
+            },
+            {
+                'name': 'Disney Frozen OLAF Squishmallow 10" KellyToy New With Tags',
+                'size': '11x10x7',
+                'weight': 1.2
+            },
+            {
+                'name': 'Nightmare Before Christmas Animated Plush OOGIE BOOGIE W/ LIGHTS 12" Walgreens',
+                'size': '12x10x11',
+                'weight': 1.9
+            },
+            {
+                'name': 'Funko POP! Marvel PROFESSOR HULK #705 6" PX Previews Exclusive',
+                'size': '8x9x9',
+                'weight': 1.3
+            },
+            {
+                'name': 'Funko Disneyland 65th Minnie Mouse #06 Mickey Mouse #03 Casey Jr. Circus Train',
+                'size': '10x8x7',
+                'weight': 1.3
+            },
+            {
+                'name': 'Disney MICKEY MOUSE 90TH ANNIVERSARY Set of 4 Plush Mickeys 9” Figures NWT',
+                'size': '11x7x6',
+                'weight': 0.8
+            },
+            {
+                'name': 'MICKEY MOUSE 90th Anniversary Target Exclusive Poseable Figures Full Set NWT',
+                'size': '8x8x7',
+                'weight': 1.2
+            }
+        ]
+    },
+    {
+        'section': A3,
+        'items': [
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+        ]
+    },
+    {
+        'section': 'B3',
+        'items': [
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+        ]
+    },
+    {
+        'section': 'C3',
+        'items': [
+            {
+                'name': 'Vintage 3D Tin Metal High Relief Set of 2 Framed Asian Themed Wall Art',
+                'size': '14x9x7',
+                'weight': 3.1
+            },
+            {
+                'name': 'The Nightmare Before Christmas Pet Toys Gift Set JACK SKELLINGTON OOGIE BOOGIE',
+                'size': '11x9x6',
+                'weight': 1.7
+            },
+            {
+                'name': 'Toniware Bird Brain Lola Hand Painted Terra Cotta Garden Pot Planter Folk Art',
+                'size': '12x10x8',
+                'weight': 2.5
+            },
+            {
+                'name': 'Penco Black Metal Candle Holder and Votive Cat Playing the Violin',
+                'size': '9x7x6',
+                'weight': 1.0
+            },
+            {
+                'name': 'Oxford Master Series in Physics Ser.: Band Theory and Electronic Properties of S'
+            },
+            {
+                'name': 'Funko POP! Deluxe: Dug Days #1098 DUG WITH PUPPIES Target Exclusive New',
+                'size': '10x9x7',
+                'weight': 1.4
+            },
+            {
+                'name': 'Vintage N S Gustin Mouse Mice SHAKER Ceramic - Two 5 1/2" Tall & One 4 1/4" Tall',
+                'size': '12x7x7',
+                'weight': 2.4
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+        ]
+    },
+    {
+        'section': 'D3'
+        'items': [
+            {
+                'name': 'COFRA 00040-CU4 Thermic Insulated Met Guard Composite Toe Boot Orange 10.5',
+                'size': '21x14x6',
+                'weight': 6.3
+            },
+            {
+                'name': 'Marvel Studios Spider-Man Homecoming Multi Movie Collection Missing One Figure',
+                'size': '20x14x6',
+                'weight': 2.7
+            },
+            {
+                'name': 'Mickey Mouse 90th Anniversary 10-Piece Collectible Figure Set BRAND NEW',
+                'size': '16x14x6',
+                'weight': 2.1
+            },
+            {
+                'name': 'Blue Mountain Pottery Green Black Glazed Sitting Thinking Frog 7" EUC',
+                'size': '12x9x7',
+                'weight': 2.7
+            },
+            {
+                'name': 'MUZZY BOWFISHING REEL XD PRO 1079 Integrated Reel Mounting System',
+                'size': '12x6x6',
+                'weight': 2.0
+            },
+            {
+                'name': 'Nightmare Before Christmas Squishmallows 14" JACK SKELLINGTON SALLY ZERO OOGIE',
+                'size': '18x12x13',
+                'weight': 5.2
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+            {
+                'name': '',
+                'size': '',
+                'weight': 
+            },
+        ]
+    }
+    {
+        'section': X1,
+        'items': [
+            {
+                'name': 'Gemmy Airblown Inflatable Dr. Seuss THE GRINCH Christmas 11 Ft LED Heart New',
+                'size': '18x14x12',
+                'weight': 9.2
+            },
+            {
+                'name': 'Disney Nightmare Before Christmas Hanging JACK SALLY LOCK SHOCK BARREL Light Up',
+                'size': '23x16x11',
+                'weight': 7.4
+            },
+            {
+                'name': 'Squishmallows Official Kellytoy Hello Kitty Sanrio 20 Inch Plush Stuffed SCUBA',
+                'size': '20x18x13',
+                'weight': 6.5
+            },
+            {
+                'name': 'Walgreens NIGHTMARE BEFORE CHRISTMAS Animated Plush Doll JACK SKELLINGTON New',
+                'size': '12x7x9',
+                'weight': 1.4,
+                'description': 'regular jack'
+            },
+            {
+                'name': 'The Nightmare Before Christmas Tree Topper JACK SKELLINGTON 12" Tree Hugger NWT',
+                'size': '18x13x7',
+                'weight': 1.7
+            }
+        ]
+    },
+    {
+        'section': X2,
+        'items': [
+            {
+                'name': 'Disney Nightmare Before Christmas Slow Cooker Crock Pot Jack Skellington NBC-73',
+                'size': '15x10x15',
+                'weight': 15.6,
+                'stock': 2
             },
             {
                 'name': '',
