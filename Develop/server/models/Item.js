@@ -3,6 +3,10 @@ const { Schema, model } = require('mongoose');
 const ItemSchema = new Schema(
     {
         name: {
+            type: String,
+            required: true
+        },
+        description: {
             type: String
         },
         createdAt: {
@@ -14,6 +18,11 @@ const ItemSchema = new Schema(
         },
         weight: {
             type: Number
+        },
+        section: {
+            type: Schema.Types.ObjectId,
+            ref: 'Section',
+            required: true
         }
     },
     {
@@ -24,10 +33,6 @@ const ItemSchema = new Schema(
         id: false
     }
 );
-
-// PizzaSchema.virtual('commentCount').get(function() {
-//     return this.comments.reduce((total, comment) => total + comment.replies.length + 1, 0);
-// });
 
 const Item = model('Item', ItemSchema);
 
