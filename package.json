@@ -19,17 +19,23 @@
   "description": "",
   "version": "1.0.0",
   "main": "server.js",
+  "name": "ebay-buddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KatyKedi/kelly-cain-company.git"
+    "url": "git+https://github.com/KatyKedi/ebay-buddy.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KatyKedi/kelly-cain-company/issues"
+    "url": "https://github.com/KatyKedi/ebay-buddy/issues"
   },
-  "homepage": "https://github.com/KatyKedi/kelly-cain-company#readme",
+  "homepage": "https://github.com/KatyKedi/ebay-buddy#readme",
   "devDependencies": {
     "dotenv": "^16.0.1",
     "nodemon": "^2.0.16"
