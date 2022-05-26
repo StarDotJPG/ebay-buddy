@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js'
-import axios from 'axios' //call to backend
+import axios from "axios" //call to backend
 
 const CARD_OPTIONS = {
 	iconStyle: "solid",
