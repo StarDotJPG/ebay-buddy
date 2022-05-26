@@ -7,6 +7,12 @@ const typeDefs = gql`
     itemCount: Int
   }
 
+  input ItemInput {
+    description: String
+    weight: Float
+    size: String
+  }
+
   type Item {
     _id: ID
     name: String
@@ -36,10 +42,10 @@ const typeDefs = gql`
   }
 
   type Mutation {
-    login(username: String!, password: String!): Auth
-    addUser(username: String!, password: String!): Auth
-    addItem(): Item
-    editItem(itemId: ID!, ): Item
+    login(email: String!, password: String!): Auth
+    addUser(email: String!, password: String!): Auth
+    addItem(name: String!, section: String!, input: ItemInput): Item
+    editItem(itemId: ID!, name: String!, section: String, input: ItemInput): Item
     deleteItem(itemId: ID!): Item
   }
 `;

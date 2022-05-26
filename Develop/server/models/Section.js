@@ -1,19 +1,17 @@
 const { Schema, model } = require('mongoose');
+const Item = require('./Item');
 
 const SectionSchema = new Schema(
     {
         name: {
-            type: String
+            type: String,
+            required: true
         },
         full: {
-            type: Boolean
+            type: Boolean,
+            default: false
         },
-        items: [
-            {
-              type: Schema.Types.ObjectId,
-              ref: 'Item'
-            }
-        ]
+        items: [Item.schema]
     },
     {
         toJSON: {

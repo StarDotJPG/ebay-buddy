@@ -1,13 +1,9 @@
 const { Schema, model } = require('mongoose');
+const bcrypt = require('bcrypt');
+const Item = require('./Item');
 
 const UserSchema = new Schema(
     {
-        username: {
-            type: String,
-            required: true,
-            unique: true,
-            trim: true
-        },
         email: {
             type: String,
             required: true,
@@ -19,12 +15,7 @@ const UserSchema = new Schema(
             required: true,
             minlength: 8
         },
-        items: [
-            {
-              type: Schema.Types.ObjectId,
-              ref: 'Item'
-            }
-        ]
+        items: [Item.schema]
     },
     {
         toJSON: {
@@ -34,6 +25,21 @@ const UserSchema = new Schema(
         id: false
     }
 );
+
+// set up pre-save middleware to create password
+userSchema.pre('save', async function(next) {
+    if (this.isNew || this.isModified('password')) {
+      const saltRounds = 10;
+      this.password = await bcrypt.hash(this.password, saltRounds);
+    }
+  
+    next();
+});
+  
+  // compare the incoming password with the hashed password
+userSchema.methods.isCorrectPassword = async function(password) {
+    return bcrypt.compare(password, this.password);
+};
 
 // get total count of items on retrieval
 UserSchema.virtual('itemCount').get(function() {
