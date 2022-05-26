@@ -1000,5 +1000,270 @@
                 'weight': 
             },
         ]
+    },
+    {
+        'section': A4,
+        'items': [
+            {
+                'name': 'Funko Pop! Movies IT EDDIE KASPBRAK # 541 Broken Arm and Inhaler New in Box',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': 'Funko POP! TV Parks and Recreation LESLIE & RON LOCKED IN Target Exclusive 2 Pk',
+                'size': '9x7x6',
+                'weight': 0.9
+            },
+            {
+                'name': 'Funko Marvel Venom CARNAGE #371 2018 Fall Convention Exclusive NIB',
+                'size': '8x7x5',
+                'weight': 0.7
+            },
+            {
+                'name': 'Funko Pop! Movies: THE LOST BOYS - FROG BROTHERS 2-pack FUNKO SHOP EXCLUSIVE NIB',
+                'size': '10x8x6',
+                'weight': 0.9
+            },
+            {
+                'name': 'Funko POP! ASIA Water Margin WU SONG #127 2021 Summer Convention Exclusive',
+                'size': '7x5x4',
+                'weight': 0.5
+            },
+            {
+                'name': "Funko POP! It's A Small World MEXICO #1076 2021 Shared Exclusive Limited Edition",
+                'size': '7x5x4',
+                'weight': 0.5
+            },
+            {
+                'name': 'Funko A Day With Pikachu SPLASHING AWAY SUMMER Pokemon Center Exclusive NIB',
+                'size': '9x7x6',
+                'weight': 0.7
+            },
+            {
+                'name': 'Funko Pokemon Holiday PIKACHU Pokemon Exclusive NIB',
+                'size': '9x7x6',
+                'weight': 0.6
+            },
+            {
+                'name': 'Funko A Day With Pikachu SPARKING UP A CELEBRATION Pokemon Center Exclusive NIB',
+                'size': '9x7x6',
+                'weight': 0.6
+            },
+            {
+                'name': 'Funko DORBZ Nickelodeon Rugrats TOMMY 478 CHUCKIE 479 ANGELICA 480 4000 Pieces',
+                'size': '11x7x6',
+                'weight': 1.2
+            },
+            {
+                'name': 'Funko POP! Stranger Things BILLY #640 New In Box MINT',
+                'size': '8x6x6',
+                'weight': 0.6
+            },
+            {
+                'name': 'SDCC 2020 PX Previews Exclusive Funko #336 Comic Moments RED HOOD vs DEATHSTROKE',
+                'size': '10x8x7',
+                'weight': 1.7
+            },
+            {
+                'name': 'Funko Mystery Minis GRINDYLOW - Harry Potter Series 2 - 1/36 Rarity',
+                'size': '8x9x5',
+                'weight': 0.4
+            },
+            {
+                'name': 'Funko POP! Marvel VENOM Poison Captain America #856 Pop In A Box Exclusive',
+                'size': '8x7x5',
+                'weight': 0.5
+            },
+            {
+                'name': 'Funko Pop! Universal Studios Monsters THE WOLF MAN Walgreens Exclusive 1153 MINT',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': 'Funko Pop! Monsters THE WOLF MAN & BRIDE OF FRANKENSTEIN Walgreens Exclusive',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': 'Hallmark Christmas Ornament Disney Villains CRUELLA DE VIL 101 Dalmatians New',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': 'Funko POP! Marvel VENOMPOOL Bobble-Head #330 Pop in Box Exclusive MINT',
+                'size': '7x5x4',
+                'weight': 0.5
+            },
+            {
+                'name': 'Hallmark Christmas Ornaments Nightmare Before Christmas JACK SKELLINGTON 2021',
+                'size': '5x4x3',
+                'weight': 0.2
+            },
+        ]
+    },
+    {
+        "section": "B4",
+        "items": [
+            {
+                'name': '2021 Hallmark Funko Pop! Friends MONICA PHOEBE RACHEL 3 Ornament Lot Walmart New',
+                'size': '10x7x6',
+                'weight': 1.3
+            },
+            {
+                'name': 'Funko Star Wars REY (JAKKU) 451 & IMPERIAL SUPER COMMANDO 452 2021 Shared Exc',
+                'size': '10x8x5',
+                'weight': 1.2
+            },
+            {
+                'name': 'Funko POP! JIMI HENDRIX Black Light #239 Funko Shop ECCC NYCC',
+                'size': '8x7x5',
+                'weight': 0.5
+            },
+            {
+                'name': 'Funko Pop Retro Toys Mystifying Oracle OUIJA PLANCHETTE #102 - BAM! Exclusive',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': 'Funko A Day With Pikachu SWEET DAYS ARE HERE Pokemon Center Exclusive NIB',
+                'size': '9x6x5',
+                'weight': 0.5
+            },
+            {
+                'name': 'Funko POP! Heroes I AM WONDER WOMAN #242 2018 Fall Convention Exclusive LE NIB',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': "Funko Spastik Plastik Sike O'Shriner Teal # 05 Funko Shop Exclusive FREE SHIP",
+                'size': '7x5x4',
+                'weight': 0.5
+            },
+            {
+                'name': 'Funko VYNL Gremlins GIZMO + GREMLIN 2018 Fall Convention Shared Exclusive MINT',
+                'size': '10x7x6',
+                'weight': 0.8
+            },
+            {
+                'name': 'Funko Pop! Monsters THE WOLF MAN & BRIDE OF FRANKENSTEIN Walgreens Exclusive',
+                'size': '9x6x8',
+                'weight': 0.9
+            },
+            {
+                'name': 'Fluffballs My Little Pony FLUTTERSHY, TWILIGHT SPARKLE, PINKIE PIE, RAINBOW DASH',
+                'size': '8x5x7',
+                'weight': 0.8
+            },
+            {
+                'name': 'Vynl Hanna Barbera HUCKLEBERRY HOUND + SNAGGLEPUSS 2018 Fall Convention 3000 PCS',
+                'size': '11x8x5',
+                'weight': 1.1
+            },
+            {
+                'name': 'SALLY JACK OOGIE BOOGIE Nightmare Before Christmas MUG SET WALGREENS EXCLUSIVE',
+                'size': '10x10x7',
+                'weight': 2.6
+            },
+            {
+                'name': 'Funko POP! Stranger Things Lot ELEVEN #637 and #16, DUSTIN #18 And BOB #639',
+                'size': '10x8x9',
+                'weight': 1.8
+            },
+            {
+                'name': 'The Suicide Squad Figural Bag Clip BLOODSPORT HARLEY QUINN PEACEMAKER New',
+                'size': '8x7x2',
+                'weight': 0.6
+            }
+        ]
+    },
+    {
+        'section': C4,
+        'items': [
+            {
+                'name': 'Funko Pop! Asia - Kung Fu Freddy Funko & Wu Song 2021 Summer Convention Unopened',
+                'size': '11x9x7',
+                'weight': 1.6
+            },
+            {
+                'name': 'Vynl QUISP + QUAKE Funko 2019 Summer Convention Limited Edition',
+                'size': '9x7x4',
+                'weight': 0.9
+            },
+            {
+                'name': 'Jack Skellington LED Wave Motion Nightmare Before Christmas Projector Halloween',
+                'size': '9x6x6',
+                'weight': 1.5
+            },
+            {
+                'name': 'Hallmark Christmas Ornaments Peanuts CHARLIE BROWN with Tree 2021 New',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': 'Hallmark Christmas Ornament Dr. Seuss THE GRINCH with Present 2021 New',
+                'size': '7x5x4',
+                'weight': 0.4 
+            },
+            {
+                'name': 'Hallmark Christmas Ornaments A Christmas Story LEG LAMP 2021 New',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': 'Hallmark Ornament Funko Pop! HARRY POTTER LORD VOLDEMORT w SNAKE Walmart New',
+                'size': '7x5x4',
+                'weight': 0.5
+            },
+            {
+                'name': 'Hallmark Ornaments Small Stars Nightmare Before Christmas JACK & SALLY Plush NWT',
+                'size': '7x5x4',
+                'weight': 0.4 
+            },
+            {
+                'name': 'Hallmark Christmas Ornaments Pokemon PIKACHU 2021 New',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': 'Funko A Day With Pikachu ONE LUCKY DAY Pokemon Center Exclusive NIB',
+                'size': '9x7x6',
+                'weight': 0.8
+            },
+            {
+                'name': 'Funko A Day With Pikachu COMPLETELY THANK-FULL Pokemon Center Exclusive NIB',
+                'size': '8x6x7',
+                'weight': 0.8
+            },
+            {
+                'name': 'Hallmark Christmas Ornaments Disney 101 DALMATIANS & CRUELLA DE VIL 2021 New',
+                'size': '6x4x6',
+                'weight': 0.6
+            },
+            {
+                'name': 'Funko POP! Hallmark Ornaments HARRY POTTER & LORD VOLDEMORT Walmart Exc. New',
+                'size': '7x5x6',
+                'weight': 0.8
+            },
+            {
+                'name': 'Nightmare Before Christmas DEADLY NIGHT SHADE Faux Succulent Plant Ceramic 7”',
+                'size': '11x8x6',
+                'weight': 1.1
+            },
+            {
+                'name': 'Funko The Flintstones BABY PUSS #598 & HOPPY THE HOPPAROO #597 2019 SDCC LE',
+                'size': '13x6x4',
+                'weight': 0.8
+            },
+            {
+                'name': 'Funko Pop! UNDERDOG #851 2021 Spring Convention ECCC Emerald City Con Exclusive',
+                'size': '7x5x4',
+                'weight': 0.4
+            },
+            {
+                'name': 'Funko Pop GANDALF THE WHITE Sword & Staff 1203 GITD Boxlunch Earth Day Exclusive',
+                'size': '7x5x4',
+                'weight': 0.5
+            },
+        ]
     }
 ]
