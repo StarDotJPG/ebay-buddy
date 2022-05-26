@@ -1,7 +1,7 @@
 import './App.css';
 import Stripe from './components/Stripe';
 import fiveDollar from './assets/5dollar.webp'
-import tenDollar from './assets/ten.jpg'
+// import tenDollar from './assets/ten.jpg'
 import { useState } from 'react';
 
 function App() {

@@ -37,7 +37,7 @@ export default function PayForm() {
         if(!error) {
             try {
                 const {id} = paymentMethod
-                const response = await axios.post('http://localhost:3000/donate', {
+                const response = await axios.post('http://localhost:3001/donate', {
                     amount: 500, //$5 in cents
                     id: id
                 })
