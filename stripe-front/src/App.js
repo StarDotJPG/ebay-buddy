@@ -1,7 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react';
+import StripeCheckout from 'react-stripe-checkout'
 
 function App() {
+
+  const [donation, setDonation] = useState({
+    name: 'Donation: $5',
+    price: 500
+  })
+
   return (
     <div className="App">
       <header className="App-header">
