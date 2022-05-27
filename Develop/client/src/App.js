@@ -12,7 +12,7 @@ function App() {
       <Header />
       <main>
       <Search />
-      <Item/>
+      {/* <Item/> */}
       </main>
     </div>
   );
