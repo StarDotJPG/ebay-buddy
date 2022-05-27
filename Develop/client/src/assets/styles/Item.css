@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+}
+
+item-container {
+    border-bottom: 10px solid black;
+}
