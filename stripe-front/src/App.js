@@ -1,10 +1,12 @@
 import './App.css';
 import React, {useState} from 'react';
 import StripeCheckout from 'react-stripe-checkout'
+import fiveDollar from './assets/5dollar.webp'
 
 function App() {
 
-  const [donation, setDonation] = useState({
+  const [donation, setDonation] = useState(
+    {
     name: 'Donation: $5',
     price: 5
   })
@@ -31,18 +33,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a
-          className="App-link"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
+      <h3>$5.00</h3> <img id='five' src={fiveDollar} alt='five dollar donation'/>
         <StripeCheckout stripeKey='pk_test_51L3NlJIbWCRjsLJPg9Oew0LGLMS3vhlEQjb3Gs20yY0UCzvBLBdLSQqdFHKpdT2zXQsMO59uZrP1Pr4pmVF9OXiZ00wiD8sf8t' 
                         token={makeDonation} 
                         name='Donate'
                         amount={donation.price * 100}>
-          <button className='donateBtn'>DONATE {donation.price}</button>
+          <button className='donateBtn'>DONATE ${donation.price}</button>
+          <p id='donatePage'>Thanks for keeping this app running!</p>
         </StripeCheckout>
       </header>
     </div>
