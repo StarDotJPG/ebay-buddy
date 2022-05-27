@@ -1,6 +1,6 @@
 const cors = require('cors')
 const express = require('express')
-const stripe = require('stripe')('pk_test_51L3NlJIbWCRjsLJPFbFlXJX4OHmzP88f6AqMqJ2xdUTTMQXykoGIgGvVoV5XfxBHCkmQkKf0LCtwRm9efh0WTxTF00Z1mAqgeD')
+const stripe = require('stripe')('sk_test_51L3NlJIbWCRjsLJPGPHOIFULxwKsUnIkfdT9QkX6nnvZ088bEO1EQEEfBh3xnuxEUGXIhA4UpGthRwXncnpe6Y6000Gw7nzir1')
 const uuid = require("uuid")
 
 const app = express()
