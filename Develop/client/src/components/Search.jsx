@@ -4,8 +4,6 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
 
-
-
 function Search() {
   function itemSearch(event) {
     event.preventDefault();
@@ -13,22 +11,22 @@ function Search() {
     console.log(item);
   }
   return (
-    <main class="background">
+    <main className="background">
       <form
         onSubmit={(event) => {
           itemSearch(event);
         }}
       >
-        <div class="text-center container">
+        <div className="text-center container">
           <label>Item Name: </label>
-          <TextField class="" id="itemName" label="itemName" variant="outlined" />
+          <TextField className="" id="itemName" label="itemName" variant="outlined" />
          
-          <Button variant="contained">GO TIME BABY!!!</Button>
+          <Button variant="contained">SEARCH</Button>
          
         </div>
-        <div class="drop-down text-center container">
-          <select class="" name="sections" id="sections">
-            <option class="" value="A1"></option>
+        <div className="drop-down text-center container">
+          <select className="" name="sections" id="sections">
+            <option className="" value="A1"></option>
           </select>
         </div>
       </form>
