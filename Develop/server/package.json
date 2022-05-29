@@ -11,7 +11,9 @@
     "nodemon": "^2.0.3"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node config/seeds.js"
   },
   "name": "server",
   "description": "",

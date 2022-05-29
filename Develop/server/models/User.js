@@ -20,7 +20,7 @@ const UserSchema = new Schema(
                 ref: 'Section'
             }
         ],
-        items: [
+        items:[ 
             {
                 type: Schema.Types.ObjectId,
                 ref: 'Item'

@@ -10,6 +10,7 @@ const resolvers = {
         const userData = await User
           .findOne({ _id: context.user._id })
           .select('-__v -password')
+          .populate('sections')
           .populate('items');
 
         return userData;
@@ -20,9 +21,7 @@ const resolvers = {
       if (context.user) {
         const user = await User
           .findById(context.user._id)
-          .populate({
-            populate: 'section'
-          });
+          .populate('sections');
 
         return user.sections;
       }
@@ -30,17 +29,9 @@ const resolvers = {
     },
     section: async (parent, { _id }, context) => {
       if (context.user) {
-        const user = await User
-          .findById(context.user._id)
-          .populate({
-            populate: 'section'
-          });
-
         const section = await Section
-          .findById(user.sections._id(_id))
-          .populate({
-            populate: 'item'
-          });
+          .findById(_id)
+          .populate('items');
         
         return section;
       }
@@ -48,9 +39,9 @@ const resolvers = {
     },
     items: async (parent, args, context) => {
       if (context.user) {
-        const user = await User.findById(context.user._id).populate({
-          populate: 'item'
-        });
+        const user = await User
+          .findById(context.user._id)
+          .populate('items');
 
         return user.items;
       }
@@ -58,11 +49,7 @@ const resolvers = {
     },
     item: async (parent, { _id }, context) => {
       if (context.user) {
-        const user = await User.findById(context.user._id).populate({
-          populate: 'item'
-        });
-
-        return user.items._id(_id);
+        return Item.findById(_id);
       }
       throw new AuthenticationError('Not logged in');
     }
