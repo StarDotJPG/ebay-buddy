@@ -1,5 +1,4 @@
 const { Schema, model } = require('mongoose');
-const Item = require('./Item');
 
 const SectionSchema = new Schema(
     {
@@ -11,7 +10,12 @@ const SectionSchema = new Schema(
             type: Boolean,
             default: false
         },
-        items: [Item.schema]
+        items: [
+            {
+                type: Schema.Types.ObjectId,
+                ref: 'Item'
+            }
+        ]
     },
     {
         toJSON: {

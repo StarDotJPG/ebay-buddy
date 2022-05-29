@@ -1,8 +1,7 @@
 [
     {
-        'model': 'Item',
         'section': 'A1',
-        'documents': [
+        'items': [
             {
                 'name': 'UGG Fluff Yeah Slide Baby Slippers Size S 02/03 6-12 Months Lamb Fur New in Box',
                 'size': '8x7x7',
@@ -177,9 +176,8 @@
         ]
     },
     {
-        'model': 'Item',
         'section': 'B1',
-        'documents': [
+        'items': [
             {
                 'name': 'Dept 56 Nightmare Before Christmas Jack, Sally and Zero by Possible Dreams NIB',
                 'size': '17x14x12',
@@ -263,9 +261,8 @@
         ]
     },
     {
-        'model': 'Item',
         'section': 'C1',
-        'documents': [
+        'items': [
             {
                 'name': 'SQUISHMALLOW Nightmare Before Christmas Large 12-14" Set of 8 New with Tags',
                 'size': '25x18x14',
@@ -309,9 +306,8 @@
         ]
     },
     {
-        'model': 'Item',
         'section': 'D1',
-        'documents': [
+        'items': [
             {
                 'name': 'Squishmallows Flip A Mallows Devil DANTE / TALLY Cat 12" Stuffed Plush NWT',
                 'size': '15x12x10',
@@ -340,9 +336,8 @@
         ]
     },
     {
-        'model': 'Item',
         'section': 'A2',
-        'documents': [
+        'items': [
             {
                 'name': 'Loungefly WINNIE THE POOH Bee Bundle w/ Funko Box Lunch #1034 and Enamel Pin NEW',
                 'size': '16x11x9',
@@ -430,7 +425,7 @@
     },
     {
         'section': 'B2',
-        'documents': [
+        'items': [
             {
                 'name': 'RARE! Disneyana Nightmare Before Christmas Cookie Jar 12" Limited Edition of 350',
                 'size': '16x14x14',
@@ -460,11 +455,6 @@
                 'name': 'Jazwares FORTNITE POLAR LEGENDS 13 Pcs Target Exclusive 4” Figures Battle Royale',
                 'size': '11x10x7',
                 'weight': 1.1
-            },
-            {
-                'name': 'Vintage Singer Sewing Machine Mini Sewing Box Wood Replica w/ Thread & Needles',
-                'size': '9x7x8',
-                'weight': 2.9
             },
             {
                 'name': 'Funko POP! Game of Thrones THE CREATORS New York Comic Con Official Sticker 2018',
@@ -514,7 +504,7 @@
     },
     {
         'section': 'C2',
-        'documents': [
+        'items': [
             {
                 'name': 'Walgreens Exclusive NIGHTMARE BEFORE CHRISTMAS Animated Plush Doll Set of 4 NWT',
                 'size': '24x17x9',
@@ -593,7 +583,7 @@
     },
     {
         'section': 'D2',
-        'documents': [
+        'items': [
             {
                 'name': 'Wow Wee Buttheads Fart Launcher 3000 IN HAND Sent Out Same Day Shipping NIB',
                 'size': '18x10x10',
@@ -682,7 +672,7 @@
         ]
     },
     {
-        'section': A3,
+        'section': "A3",
         'items': [
             {
                 'name': '',
@@ -825,11 +815,6 @@
                 'weight': 1.7
             },
             {
-                'name': 'Toniware Bird Brain Lola Hand Painted Terra Cotta Garden Pot Planter Folk Art',
-                'size': '12x10x8',
-                'weight': 2.5
-            },
-            {
                 'name': 'Penco Black Metal Candle Holder and Votive Cat Playing the Violin',
                 'size': '9x7x6',
                 'weight': 1.0
@@ -846,32 +831,7 @@
                 'name': 'Vintage N S Gustin Mouse Mice SHAKER Ceramic - Two 5 1/2" Tall & One 4 1/4" Tall',
                 'size': '12x7x7',
                 'weight': 2.4
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
+            }
         ]
     },
     {
@@ -901,32 +861,7 @@
                 'name': 'Nightmare Before Christmas Squishmallows 14" JACK SKELLINGTON SALLY ZERO OOGIE',
                 'size': '18x12x13',
                 'weight': 5.2
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
+            }
         ]
     }
     {
@@ -968,37 +903,7 @@
                 'size': '15x10x15',
                 'weight': 15.6,
                 'stock': 2
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
-            {
-                'name': '',
-                'size': '',
-                'weight': 
-            },
+            }
         ]
     },
     {
@@ -1098,7 +1003,7 @@
                 'name': 'Hallmark Christmas Ornaments Nightmare Before Christmas JACK SKELLINGTON 2021',
                 'size': '5x4x3',
                 'weight': 0.2
-            },
+            }
         ]
     },
     {
@@ -1263,7 +1168,7 @@
                 'name': 'Funko Pop GANDALF THE WHITE Sword & Staff 1203 GITD Boxlunch Earth Day Exclusive',
                 'size': '7x5x4',
                 'weight': 0.5
-            },
+            }
         ]
     }
 ]

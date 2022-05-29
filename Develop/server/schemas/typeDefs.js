@@ -4,6 +4,8 @@ const typeDefs = gql`
   type User {
     _id: ID
     username: String
+    sections: [Section]
+    items: [Item]
     itemCount: Int
   }
 
@@ -37,16 +39,22 @@ const typeDefs = gql`
 
   type Query {
     me: User
-    items(section: String): [Item]
-    items(name: String): [Item]
+    sections: [Section]
+    section(_id: ID!): Section
+    items(name: String!): [Item]
+    item(_id: ID!): Item
   }
 
   type Mutation {
     login(email: String!, password: String!): Auth
+    logout(email: String!): User
     addUser(email: String!, password: String!): Auth
+    addSection(name: String!, full: Boolean): Section
+    editSection(_id: ID!, name: String, full: Boolean): Section
+    deleteSection(_id: ID!): Section
     addItem(name: String!, section: String!, input: ItemInput): Item
-    editItem(itemId: ID!, name: String!, section: String, input: ItemInput): Item
-    deleteItem(itemId: ID!): Item
+    editItem(_id: ID!, name: String, section: String, input: ItemInput): Item
+    deleteItem(_id: ID!): Item
   }
 `;
 
