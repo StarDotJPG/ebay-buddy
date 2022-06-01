@@ -3,6 +3,7 @@ import React from 'react';
 import StripeCheckout from 'react-stripe-checkout'
 import fiveDollar from '../../5dollar.webp'
 import { useQuery } from '@apollo/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const CHECKOUT = `
 query($name: String!, $price: Int!) {
     checkout(name: $name, price: $price) {

@@ -4,10 +4,12 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./style.css";
 
 function Appbar() {
   return (
-      <AppBar position="static" style={{backgroundColor: '#86b817'}}>
+      <AppBar position="static" style={{backgroundColor: '#FFFFFF'}}>
         <Toolbar>
           <IconButton
             size="large"
@@ -17,7 +19,7 @@ function Appbar() {
             sx={{ mr: 2 }}
           >
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography  variant="h6" component="div" sx={{ flexGrow: 1 }}>
             ebay BUDDY
           </Typography>
           <Button color="inherit">Login | Sign Up</Button>

@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
-import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
+import TextField from "@mui/material/TextField";
 
 
 function Search() {
@@ -15,14 +14,20 @@ function Search() {
       <form
         onSubmit={(event) => {
           itemSearch(event);
+          console.log(event);
         }}
       >
         <div className="text-center container">
-          <label>Item Name: </label>
-          <TextField className="" id="itemName" label="itemName" variant="outlined" />
-         
-          <Button variant="contained">SEARCH</Button>
-         
+          <TextField
+            className=""
+            id="itemName"
+            label="Item Name?"
+            variant="outlined"
+          />
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-secondary">Search</button>
         </div>
         <div className="drop-down text-center container">
           <select className="" name="sections" id="sections">
@@ -30,7 +35,6 @@ function Search() {
           </select>
         </div>
       </form>
-    
     </main>
   );
 }
