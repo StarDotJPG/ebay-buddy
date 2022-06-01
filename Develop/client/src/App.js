@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
         <Appbar />
-        <Item />
         <Search />
     </div>
   );
