@@ -1,5 +1,5 @@
 import './style.css';
-import React, {useState} from 'react';
+import React from 'react';
 import StripeCheckout from 'react-stripe-checkout'
 import fiveDollar from '../../5dollar.webp'
 import { useQuery } from '@apollo/client';
