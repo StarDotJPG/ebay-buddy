@@ -1,7 +1,8 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User, Section, Item } = require('../models');
 const { signToken } = require('../utils/auth');
-// const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+const uuid = require("uuid")
 
 const resolvers = {
   Query: {
@@ -52,6 +53,28 @@ const resolvers = {
         return Item.findById(_id);
       }
       throw new AuthenticationError('Not logged in');
+    },
+    checkout: async (parent, { donation, token }, context) => {
+      const url = new URL(context.headers.referer).origin
+      const idempontencyKey = uuid() //avoid multiple charges in case of network err
+
+      //customer successfully created leads to
+      const charges = await stripe.charges.create({ //creating a charge
+        amount: price * 100,
+        currency: 'usd',
+        receipt_email: token.email,
+        description: `Thank you for your donation of ${donation.name}` 
+        }, {idempontencyKey})
+      
+      // session variable which controls success redirect and back functionality
+			const session = await stripe.checkout.sessions.create({
+				payment_method_types: ['card'],
+				mode: 'payment',
+				success_url: `${url}/`,
+				cancel_url: `${url}/donation`
+			});
+			  
+			return { session: session.id }; 
     }
   },
 
