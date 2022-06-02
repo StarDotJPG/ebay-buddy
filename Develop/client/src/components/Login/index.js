@@ -1,63 +1,60 @@
 import React, { useState } from 'react';
 import { useMutation } from '@apollo/client';
-import { LOGIN_USER } from '../../utils/mutations';
+import { LOGIN_USER, SIGNUP_USER } from '../../utils/mutations';
 import './style.css'
 
 import Auth from '../../utils/auth';
 
 
-export default function Login() {
+function Login() {
 
-    const [login, { error }] = useMutation(LOGIN_USER);
+    const [loginFormState, setLoginFormState] = useState({ email: '', password: '' });
+    const [login, {error}] = useMutation(LOGIN_USER);
 
-    const loginButtonHandler = async (event) => {
-
-        event.preventDefault()
-
-        const userEmail = document.querySelector('#user-email').value.trim()
-        const password = document.querySelector('#user-pass').value.trim()
-
-        console.log("Login button clicked!")
-
-        if (userEmail && password) {
-            // graphQL login stuff
-
-            try {
-                const { data } = await login({
-                  //variables: { ...formState },
-                });
-          
-                Auth.login(data.login.token);
-              } catch (e) {
-                console.error(e);
-              }
-          
+    const handleLoginFormSubmit = async (event) => {
+        event.preventDefault();
+        try {
+          const mutationResponse = await login({
+            variables: { email: loginFormState.email, password: loginFormState.password },
+          });
+          const token = mutationResponse.data.login.token;
+          Auth.login(token);
+        } catch (e) {
+          console.log(e);
         }
+      };
 
-        else {
-            // error handling for no entry
+    const handleLoginChange = (event) => {
+        const { name, value } = event.target;
+        setLoginFormState({
+          ...loginFormState,
+          [name]: value,
+        });
+    };
+
+    const [signupFormState, setSignupFormState] = useState({ email: '', password: ''});
+    const [signup] = useMutation(SIGNUP_USER);
+
+    const handleSignupFormSubmit = async (event) => {
+        event.preventDefault();
+        try {
+          const mutationResponse = await signup({
+            variables: { email: signupFormState.email, password: signupFormState.password },
+          });
+          const token = mutationResponse.data.login.token;
+          Auth.login(token);
+        } catch (e) {
+          console.log(e);
         }
+      };
 
-    }
-
-    function signupButtonHandler(event) {
-
-        event.preventDefault()
-
-        const userEmail = document.querySelector('#new-user-email').value.trim()
-        const password = document.querySelector('#new-user-pass').value.trim()
-
-        console.log("Signup button clicked!")
-
-        if (userEmail && password) {
-            // graphQL login stuff
-        }
-
-        else {
-            // error handling for no entry
-        }
-
-    }
+    const handleSignupChange = (event) => {
+        const { name, value } = event.target;
+        setSignupFormState({
+          ...signupFormState,
+          [name]: value,
+        });
+    };
 
     return (
         <>
@@ -71,26 +68,37 @@ export default function Login() {
                 </h1>
             </header>
 
-            <form onSubmit={(event) => { loginButtonHandler(event) }}>
+            <form onSubmit={(event) => { handleLoginFormSubmit(event) }}>
                 <div className='login'>
                     <h2>Login</h2>
                     <label>Email:</label>
-                    <input type="text" name="email" id="user-email" required />
+                    <input type="text" name="email" id="user-email" onChange={handleLoginChange} required />
                     <label>Password:</label>
-                    <input type="password" name="password" id="user-pass" required />
+                    <input type="password" name="password" id="user-pass" onChange={handleLoginChange} required />
                 </div>
                 <div className="submitBtn">
                     <input type="submit" />
                 </div>
+                {error ? (
+                    <div>
+                        <p className="error-text">The provided credentials are incorrect</p>
+                    </div>
+                    ) : null}
             </form>
 
-            <form onSubmit={(event) => { signupButtonHandler(event) }}>
+            {error ? (
+          <div>
+            <p className="error-text">The provided credentials are incorrect</p>
+          </div>
+        ) : null}
+
+            <form onSubmit={(event) => { handleSignupFormSubmit(event) }}>
                 <div className='signup'>
                     <h2>Sign Up</h2>
                     <label>Username:</label>
-                    <input type="text" name="Username" id="new-user-email" required />
+                    <input type="text" name="Username" id="new-user-email" onChange={handleSignupChange} required />
                     <label>Password:</label>
-                    <input type="password" name="password" id="new-user-pass" required />
+                    <input type="password" name="password" id="new-user-pass" onChange={handleSignupChange} required />
                 </div>
                 <div className="submitBtn">
                     <input type="submit" />
@@ -99,3 +107,5 @@ export default function Login() {
         </>
     )
 }
+
+export default Login;

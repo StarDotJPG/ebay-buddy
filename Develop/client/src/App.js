@@ -19,7 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: 'http://localhost:3001/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
@@ -46,10 +46,10 @@ function App() {
           <Appbar />
           <main>
             <Routes>
-              {<Route
+              <Route
                 path="/"
                 element={<Login />}
-              />}
+              />
               <Route
                 path="/search"
                 element={<Search />}

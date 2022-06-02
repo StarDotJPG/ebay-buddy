@@ -127,12 +127,6 @@ db.once('open', async () => {
             section: sections[0]._id
         },
         {
-            name: 'Philips Norelco MG7750/49 Series 7000 All-in-one 23 Pieces Multigroom Trimmer',
-            size: '13x7x5',
-            weight: 1.6,
-            section: sections[0]._id
-        },
-        {
             name: 'O.P.I. OPI Infinite Shine System BARE FOR YOU Collection Gift Set of 4 NIB',
             size: '9x6x6',
             weight: 1.4,
@@ -975,12 +969,6 @@ db.once('open', async () => {
             name: 'Hallmark Christmas Ornament Disney Villains CRUELLA DE VIL 101 Dalmatians New',
             size: '7x5x4',
             weight: 0.4,
-            section: sections[3]._id
-        },
-        {
-            name: 'Funko POP! Marvel VENOMPOOL Bobble-Head #330 Pop in Box Exclusive MINT',
-            size: '7x5x4',
-            weight: 0.5,
             section: sections[3]._id
         },
         {
