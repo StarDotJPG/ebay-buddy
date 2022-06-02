@@ -1,4 +1,16 @@
-.loginHeader {
-    background-color: white;
+body {
+    background-color: #86B817;
 }
 
+.loginHeader {
+    background-color: white;
+    height: 100px;
+}
+
+.mainContainer {
+    background-color: #86B817;
+    text-align: center;
+}
+
+.login {
+}
