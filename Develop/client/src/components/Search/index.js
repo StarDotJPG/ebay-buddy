@@ -7,8 +7,6 @@ import { QUERY_ITEMS } from '../../utils/queries';
 const useSearchData = () => {
   const { loading, error, data } = useQuery(QUERY_ITEMS)
 
-  //{ data } = data[]
-
   if (loading) {
     console.log("Loading...")
   }
