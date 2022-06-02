@@ -1,9 +1,10 @@
-import './style.css';
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout'
-import fiveDollar from '../../5dollar.webp'
+import fiveDollar from './5dollar.webp'
 import { useQuery } from '@apollo/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './style.css';
+
 const CHECKOUT = `
 query($name: String!, $price: Int!) {
     checkout(name: $name, price: $price) {
@@ -32,7 +33,7 @@ function Donation() {
                         token={useMakeDonation} 
                         name='Donate'
                         amount={donation.price * 100}>
-          <button className='donateBtn'>DONATE ${donation.price}</button>
+          <button className='donateBtn' id='donateBtn'>DONATE ${donation.price}</button>
           <p id='donatePage'>Thanks for keeping this app running!</p>
         </StripeCheckout>
       </header>
