@@ -19,6 +19,7 @@ export default function Login() {
                     <label>Email:</label>
                         <input type="text" name="Email" required />
                 <br />
+                <br />
                     <label>Password:</label>
                         <input type="password" name="password" required />
                             <div className="submitBtn">
@@ -29,6 +30,7 @@ export default function Login() {
             <h2>Sign Up</h2>
                 <label>Email:</label>
                     <input type="text" name="Email" required />
+                <br />
                 <br />
                     <label>Password:</label>
                         <input type="password" name="password" required />
