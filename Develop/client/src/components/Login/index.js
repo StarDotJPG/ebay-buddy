@@ -1,9 +1,7 @@
 import React from 'react';
 import './style.css'
 
-
 export default function Login() {
-
 
     function loginButtonHandler(event) {
 
@@ -24,6 +22,24 @@ export default function Login() {
 
     }
 
+    function signupButtonHandler(event) {
+
+        event.preventDefault()
+
+        const userEmail = document.querySelector('#new-user-email').value.trim()
+        const password = document.querySelector('#new-user-pass').value.trim()
+
+        console.log("Signup button clicked!")
+
+        if (userEmail && password) {
+            // graphQL login stuff
+        }
+
+        else {
+            // error handling for no entry
+        }
+
+    }
 
     return (
         <>
@@ -36,6 +52,7 @@ export default function Login() {
                     <span style={{ color: "#0064D3" }}>Buddy</span>
                 </h1>
             </header>
+
             <form onSubmit={(event) => { loginButtonHandler(event) }}>
                 <div className='login'>
                     <h2>Login</h2>
@@ -48,16 +65,19 @@ export default function Login() {
                     <input type="submit" />
                 </div>
             </form>
-            <h2>Sign Up</h2>
-            <div className='signup'>
-                <label>Username:</label>
-                <input type="text" name="Username" required />
-                <label>Password:</label>
-                <input type="password" name="password" required />
-            </div>
-            <div className="submitBtn">
-                <input type="submit" />
-            </div>
+
+            <form onSubmit={(event) => { signupButtonHandler(event) }}>
+                <div className='signup'>
+                    <h2>Sign Up</h2>
+                    <label>Username:</label>
+                    <input type="text" name="Username" id="new-user-email" required />
+                    <label>Password:</label>
+                    <input type="password" name="password" id="new-user-pass" required />
+                </div>
+                <div className="submitBtn">
+                    <input type="submit" />
+                </div>
+            </form>
         </>
     )
 }
