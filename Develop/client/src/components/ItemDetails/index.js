@@ -5,11 +5,11 @@ import "./style.css";
 function ItemDetails() {
   return (
     <div className="container display-container">
-      <h1 class="text-center "> Item Information </h1>
-      <div class="text-left border">
+      <h1 className="text-center "> Item Information </h1>
+      <div className="text-left border">
         <ul>
         
-          <li id="name" class="border-top">Name: </li>
+          <li id="name" className="border-top">Name: </li>
           <li id="description">Description: </li>
           <li id="createdAt">Created At: </li>
           <li id="size">Size: </li>

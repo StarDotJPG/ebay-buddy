@@ -11,18 +11,18 @@ function ItemDisplay() {
   return (
 <>
     <div className="container display-container">
-        <div class="text-center border">
-            <ul class="display-box"></ul>
+        <div className="text-center border">
+            <ul className="display-box"></ul>
 
 
 
     </div>
         </div>
-        <div class="row button-container">
+        <div className="row button-container">
             
-    <button class="col btn1 btn btn-primary">View / Edit</button>
-    <button class="col btn1 btn btn-danger ">Delete</button>
-    <button class="col btn1 btn btn-success">Add</button>
+    <button className="col btn1 btn btn-primary">View / Edit</button>
+    <button className="col btn1 btn btn-danger ">Delete</button>
+    <button className="col btn1 btn btn-success">Add</button>
     </div>
     </>
   )

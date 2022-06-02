@@ -13,7 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-       <div class="background">
+       <div className="background">
         <Appbar />
         <main>
           <Search />

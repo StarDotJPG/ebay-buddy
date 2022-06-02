@@ -26,8 +26,8 @@ function Search() {
           />
         </div>
 
-        <div class="text-center">
-          <button class="btn btn-secondary">Search</button>
+        <div className="text-center">
+          <button className="btn btn-secondary">Search</button>
         </div>
         <div className="drop-down text-center container">
           <select className="" name="sections" id="sections">
