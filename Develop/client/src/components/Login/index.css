@@ -12,5 +12,14 @@ body {
     text-align: center;
 }
 
-.login {
+.login, .signup {
+    border: solid white 3px;
+    margin: 5px;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+.submitBtn {
+    margin: 20px;
+    padding: 10px;
 }
