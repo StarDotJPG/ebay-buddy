@@ -6,11 +6,11 @@ export default function Login() {
     <>
      <header class="loginHeader">
     <h1>
-    <span style="color: red">e</span>
-    <span style="color: blue">b</span>
-    <span style="color: yellow">a</span>
-    <span style="color: #86B817">y</span>
-    <span style="color: Blue">Buddy</span>
+    <span style={{color: red}}>e</span>
+    <span style={{color: blue}}>b</span>
+    <span style={{color: yellow}}>a</span>
+    <span style={{color: "#86B817"}}>y</span>
+    <span style={{color: Blue}}>Buddy</span>
     </h1>
 </header>
     <div className='login'>
@@ -33,7 +33,6 @@ export default function Login() {
     <div className="submitBtn">
         <input type="submit" />
     </div>
-
     </>
   )
 }
