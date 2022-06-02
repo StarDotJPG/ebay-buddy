@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useMutation } from '@apollo/client';
+import { LOGIN_USER } from '../../utils/mutations';
 import './style.css'
+
+import Auth from '../../utils/auth';
+
 
 export default function Login() {
 
-    function loginButtonHandler(event) {
+    const [login, { error }] = useMutation(LOGIN_USER);
+
+    const loginButtonHandler = async (event) => {
 
         event.preventDefault()
 
@@ -14,6 +21,17 @@ export default function Login() {
 
         if (userEmail && password) {
             // graphQL login stuff
+
+            try {
+                const { data } = await login({
+                  //variables: { ...formState },
+                });
+          
+                Auth.login(data.login.token);
+              } catch (e) {
+                console.error(e);
+              }
+          
         }
 
         else {
