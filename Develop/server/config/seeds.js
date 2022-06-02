@@ -163,12 +163,6 @@ db.once('open', async () => {
             section: sections[0]._id
         },
         {
-            name: 'Funko POP! Disney Art Series Amazon Exclusive MICKEY MOUSE #24 MINNIE MOUSE #23',
-            size: '8x8x6',
-            weight: 1.9,
-            section: sections[0]._id
-        },
-        {
             name: 'Hallmark The MANDALORIAN w/ THE CHILD Walgreens Star Wars Christmas Ornament',
             size: '6x6x4',
             weight: 0.5,
@@ -178,12 +172,6 @@ db.once('open', async () => {
             name: 'Funko POP! Marvel Avengers Endgame IRON MAN #580 PX Exclusive GITD',
             size: '7x5x4',
             weight: 0.5,
-            section: sections[0]._id
-        },
-        {
-            name: 'DORBZ Funko Shop Ltd 3000 Pcs DUCK DODGERS SPACE CADET MARVIN THE MARTIAN',
-            size: '11x6x5',
-            weight: 1.0,
             section: sections[0]._id
         },
         {
@@ -868,12 +856,6 @@ db.once('open', async () => {
             section: sections[15]._id
         },
         {
-            name: 'Squishmallows Official Kellytoy Hello Kitty Sanrio 20 Inch Plush Stuffed SCUBA',
-            size: '20x18x13',
-            weight: 6.5,
-            section: sections[15]._id
-        },
-        {
             name: 'Walgreens NIGHTMARE BEFORE CHRISTMAS Animated Plush Doll JACK SKELLINGTON New',
             size: '12x7x9',
             weight: 1.4,
@@ -1180,12 +1162,6 @@ db.once('open', async () => {
             name: 'Funko The Flintstones BABY PUSS #598 & HOPPY THE HOPPAROO #597 2019 SDCC LE',
             size: '13x6x4',
             weight: 0.8,
-            section: sections[11]._id
-        },
-        {
-            name: 'Funko Pop! UNDERDOG #851 2021 Spring Convention ECCC Emerald City Con Exclusive',
-            size: '7x5x4',
-            weight: 0.4,
             section: sections[11]._id
         },
         {
