@@ -45,7 +45,7 @@ const typeDefs = gql`
     me: User
     sections: [Section]
     section(_id: ID!): Section
-    items(name: String!): [Item]
+    items: [Item]
     item(_id: ID!): Item
     checkout(name: String!, price: Int!): Checkout
   }
