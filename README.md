@@ -11,14 +11,15 @@ ebayBuddy aims to make the lives of ebay sellers easier by giving them a tool to
 * Express.js
 * React
 
-## Link to Deployed Application:
+## DEPLOYED APPLICATION
 
 https://floating-stream-47756.herokuapp.com/
 
-## Screenshot
+## PRESENTATION
+
+https://docs.google.com/presentation/d/1-eCbzS_BmTYQGINcYows--5cfEhsEzf-LTaRwT_S0ys/edit#slide=id.p
 
 
-
-## Contributors
+## CONTRIBUTION
 
 Katy Vincent, Jessica Veroza, Aaron Weaver, Andrew Nohr, Jason Greena
