@@ -3,49 +3,6 @@ import { useMutation } from '@apollo/client';
 import { LOGIN_USER, SIGNUP_USER } from '../../utils/mutations';
 import './style.css'
 
-<<<<<<< HEAD
-export default function Login() {
-  return (
-    <>
-    <header className="loginHeader">
-        <h1>
-        <span style={{color: "#E53238"}}>e</span>
-        <span style={{color: "#0064D3"}}>b</span>
-        <span style={{color: "#F5A5"}}>a</span>
-        <span style={{color: "#86B817"}}>y</span>
-        <span style={{color: "#0064D3"}}>Buddy</span>
-        </h1>
-    </header>
-        <div className="mainContainer">
-            <div className='login'>
-                <h2>Login</h2>
-                    <label>Email:</label>
-                        <input type="text" name="Email" required />
-                <br />
-                <br />
-                    <label>Password:</label>
-                        <input type="password" name="password" required />
-                            <div className="submitBtn">
-                                <input type="submit" />
-                            </div>
-            </div>
-        <div className='signup'>
-            <h2>Sign Up</h2>
-                <label>Email:</label>
-                    <input type="text" name="Email" required />
-                <br />
-                <br />
-                    <label>Password:</label>
-                        <input type="password" name="password" required />
-                            <div className="submitBtn">
-                                <input type="submit" />
-                            </div>
-            </div>
-        </div>
-    </>
-  )
-}
-=======
 import Auth from '../../utils/auth';
 
 
@@ -152,4 +109,3 @@ function Login() {
 }
 
 export default Login;
->>>>>>> add9ad4abcff86bcd55ac4e2f1b2047f67b5f22d
