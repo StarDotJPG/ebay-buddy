@@ -83,11 +83,6 @@
                 'weight': 1.5
             },
             {
-                'name': 'Philips Norelco MG7750/49 Series 7000 All-in-one 23 Pieces Multigroom Trimmer',
-                'size': '13x7x5',
-                'weight': 1.6
-            },
-            {
                 'name': 'O.P.I. OPI Infinite Shine System BARE FOR YOU Collection Gift Set of 4 NIB',
                 'size': '9x6x6',
                 'weight': 1.4
@@ -788,7 +783,7 @@
                 'name': '',
                 'size': '',
                 'weight': 
-            },
+            }
         ]
     },
     {
@@ -825,7 +820,7 @@
         ]
     },
     {
-        'section': 'D3'
+        'section': 'D3',
         'items': [
             {
                 'name': 'COFRA 00040-CU4 Thermic Insulated Met Guard Composite Toe Boot Orange 10.5',
@@ -978,11 +973,6 @@
                 'name': 'Hallmark Christmas Ornament Disney Villains CRUELLA DE VIL 101 Dalmatians New',
                 'size': '7x5x4',
                 'weight': 0.4
-            },
-            {
-                'name': 'Funko POP! Marvel VENOMPOOL Bobble-Head #330 Pop in Box Exclusive MINT',
-                'size': '7x5x4',
-                'weight': 0.5
             },
             {
                 'name': 'Hallmark Christmas Ornaments Nightmare Before Christmas JACK SKELLINGTON 2021',

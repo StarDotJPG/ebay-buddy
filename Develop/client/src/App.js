@@ -8,6 +8,7 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
+import Login from "./components/Login/index.js"
 import Search from "./components/Search/index.js";
 import Appbar from "./components/Appbar/index.js";
 import Donation from './components/Donation/index';
@@ -18,7 +19,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 const httpLink = createHttpLink({
-  uri: '/graphql',
+  uri: 'http://localhost:3001/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
@@ -45,10 +46,10 @@ function App() {
           <Appbar />
           <main>
             <Routes>
-              {/* <Route
+              <Route
                 path="/"
-                element={<Home />}
-              /> */}
+                element={<Login />}
+              />
               <Route
                 path="/search"
                 element={<Search />}

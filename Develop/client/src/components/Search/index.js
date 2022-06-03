@@ -1,46 +1,61 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import TextField from "@mui/material/TextField";
-import { useQuery, userParam } from '@apollo/client';
+import { useQuery } from '@apollo/client';
 import { QUERY_ITEMS } from '../../utils/queries';
-
-const useSearchData = () => {
-  const { loading, error, data } = useQuery(QUERY_ITEMS)
-
-  if (loading) {
-    console.log("Loading...")
-  }
-
-  if (error) {
-    console.log(error.message)
-  }
-
-  console.log(data.stringify)
-
-  return data
-
-}
+import { useItemContext } from '../../utils/GlobalState';
+import { UPDATE_ITEMS } from '../../utils/actions';
+import { idbPromise } from '../../utils/helpers';
 
 function Search() {
-  
-  const itemsArray = useSearchData()
+  const [state, dispatch] = useItemContext();
 
-  function itemSearch(event) {
+  const { loading, data } = useQuery(QUERY_ITEMS);
+  console.log(data)
+
+  // useEffect(() => {
+  //   if (data) {
+  //     dispatch({
+  //       type: UPDATE_ITEMS,
+  //       items: data.items,
+  //     });
+  //     data.items.forEach((item) => {
+  //       idbPromise('items', 'put', item);
+  //     });
+  //   } else if (!loading) {
+  //     idbPromise('items', 'get').then((items) => {
+  //       dispatch({
+  //         type: UPDATE_ITEMS,
+  //         items: items,
+  //       });
+  //     });
+  //   }
+  // }, [data, loading, dispatch]);
+
+  // function filterItems(itemName) {
+  //   if (!state.items) {
+  //     return state.items;
+  //   }
+
+  //   return state.items.filter((item) => {
+  //     if (item.name.includes(itemName)) {
+  //       return item
+  //     }
+  //   });
+  // }
+
+  const handleItemSearch = (event) => {
     event.preventDefault();
-    let item = document.getElementById("itemName").value;
-    //Compare to array returned from GQL query
-    //data.foreach if data.name = item
-    //create list element with that name
-    console.log(item);
+    const itemName = document.getElementById("itemName").value;
+ 
+    // filterItems(itemName);
+
+    window.location.replace('/item-display');
   }
+
   return (
     <main className="background">
-      <form
-        onSubmit={(event) => {
-          itemSearch(event);
-          console.log(event);
-        }}
-      >
+      <form onSubmit={(event) => {handleItemSearch(event)}}>
         <div className="text-center container">
           <TextField
             className=""
@@ -50,14 +65,14 @@ function Search() {
           />
         </div>
 
-        <div className="text-center">
-          <button className="btn btn-secondary">Search</button>
-        </div>
-        <div className="drop-down text-center container">
+        <div className="submitBtn">
+                    <input type="submit" />
+                </div>
+        /* <div className="drop-down text-center container">
           <select className="" name="sections" id="sections">
             <option className="" value="A1"></option>
           </select>
-        </div>
+        </div> */
       </form>
     </main>
   );
