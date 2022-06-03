@@ -6,10 +6,10 @@ ebayBuddy aims to make the lives of ebay sellers easier by giving them a tool to
 
 ## TECHNOLOGY USED
 
-GraphQL,
-Node.js
-Express.js
-React
+* GraphQL
+* Node.js
+* Express.js
+* React
 
 ## Link to Deployed Application:
 
