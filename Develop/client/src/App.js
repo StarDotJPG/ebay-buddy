@@ -7,9 +7,10 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
+import { CatalogProvider } from './utils/GlobalState';
 
 import Login from "./components/Login/index.js"
-import Search from "./components/Search/index.js";
+import Search from "./components/Search/Search.js";
 import Appbar from "./components/Appbar/index.js";
 import Donation from './components/Donation/index';
 import ItemDisplay from "./components/ItemDisplay/index.js";
@@ -37,12 +38,12 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-
 function App() {
   return (
     <ApolloProvider client={client}>
       <BrowserRouter>
       <div className="background">
+        <CatalogProvider>
           <Appbar />
           <main>
             <Routes>
@@ -68,6 +69,7 @@ function App() {
               />
             </Routes>
           </main>
+          </CatalogProvider>
         </div>
       </BrowserRouter>
     </ApolloProvider>

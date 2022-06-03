@@ -6,7 +6,8 @@ const { Provider } = ItemContext;
 
 const CatalogProvider = ({ value = [], ...props }) => {
   const [state, dispatch] = useItemReducer({
-    items: []
+    items: [],
+    keyword: ''
   });
 
   return <Provider value={[state, dispatch]} {...props} />;

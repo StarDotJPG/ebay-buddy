@@ -1,6 +1,7 @@
 import { useReducer } from "react";
 import {
-  UPDATE_ITEMS
+  UPDATE_ITEMS,
+  UPDATE_CURRENT_KEYWORD
 } from "./actions";
 
 export const reducer = (state, action) => {
@@ -22,18 +23,6 @@ export const reducer = (state, action) => {
     //   return {
     //     ...state,
     //     cart: [...state.cart, ...action.products],
-    //   };
-
-    // case UPDATE_CART_QUANTITY:
-    //   return {
-    //     ...state,
-    //     cartOpen: true,
-    //     cart: state.cart.map(product => {
-    //       if (action._id === product._id) {
-    //         product.purchaseQuantity = action.purchaseQuantity
-    //       }
-    //       return product
-    //     })
     //   };
 
     // case REMOVE_FROM_CART:
@@ -66,11 +55,11 @@ export const reducer = (state, action) => {
     //     categories: [...action.categories],
     //   };
 
-    // case UPDATE_CURRENT_CATEGORY:
-    //   return {
-    //     ...state,
-    //     currentCategory: action.currentCategory
-    //   }
+    case UPDATE_CURRENT_KEYWORD:
+       return {
+         ...state,
+         currentKeyword: action.currentKeyword
+    }
 
     default:
       return state;
